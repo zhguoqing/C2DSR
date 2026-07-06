@@ -10,7 +10,14 @@ python train.py --dataset sysu --gpu 0
 ## Evaluation
 Test a model on SYSU-MM01 or RegDB dataset by
 ```bash
-python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
+python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu --trial 1
 ```
+- `--dataset`：which dataset "sysu", "regdb" or "llcm".
+- `--mode`："all" or "indoor" all search or indoor search (only for sysu dataset).
+- `--trial`：testing trial (only for RegDB dataset).
+- `--resume`：the saved model path.
 ## Citation
 If you use this code for your research, please cite
+```bash
+
+```
