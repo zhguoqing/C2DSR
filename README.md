@@ -7,6 +7,7 @@ Train a model by
 python train.py --dataset sysu --gpu 0 
 ```
 - `--dataset`：which dataset "sysu", "regdb" or "llcm".
+- `--gpu`：which gpu to run.
 ## Evaluation
 Test a model on SYSU-MM01 or RegDB dataset by
 ```bash
